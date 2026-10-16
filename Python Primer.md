@@ -17,7 +17,7 @@ print(f"do thet point to the same exact obj ?: {x is y}")
 |float|x=3.14|del x||
 |list|x=[1,2,3]<br>x[0]=10(assign/update)|del x<br>del x[0]<br>x.pop()|x.==append(item)== *last*<br>x.==extend(item)==<br>x.==insert(index,item)==<br>x.==remove(item)== *first occurrence*<br>==len(list)==|
 |tuple|x=(1,2,3)|del x|==len(tuple)==<br>x==[start:end]==<br>x.==count(item)==|
-|str|x="hello"|del x|+ *(concat)*<br> len()<br>.upper()<br>.lower()<br>str.==split(sep,max sep)==|
+|str|x="hello"|del x|+ *(concat)*<br> len()<br>.upper()<br>.lower()<br>str.==split(sep,max sep)==<br>str.==strip("char")== *it remove the char from the start and the end<br>str.==replace(old,new)==<br>==re.sub()==|
 |set|s={1,2,3}|del x<br>x.==remove(1)==|s.==add(item)== *last*<br>s.==update(iterable)==<br>s==.intersection({2,3,4})== $\rightarrow${2,3}<br>s.==union({2,3,4})== $\rightarrow$ {1,2,3,4}|
 |dict|d={"a" :1}<br> d["b"]= 2 *(assign*|del x<br>del d["a"]<br>d.pop("a")|d.==key()== $\rightarrow$ ['a','b']<br>d.==values== $\rightarrow$ [1,2]<br>d.==items()== $\rightarrow$ [('a',1),('b',2)]<br>d.==get("a")== $\rightarrow$ 1|
 
@@ -123,4 +123,3 @@ try:
 except InsufficientFundsError as e:
 	print(f"Transaction rejected :{e}")
 ```
-

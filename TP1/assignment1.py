@@ -1,3 +1,7 @@
+'''
+sudent: mohamed islem ben hadj hassine
+mail: mohamedislem.benhadjhassine@etudian-isi-utm.tn
+'''
 def calculate_gpa(student_record):
     student_id, student_name, list_of_courses = student_record
 

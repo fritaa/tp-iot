@@ -1,3 +1,7 @@
+'''
+sudent: mohamed islem ben hadj hassine
+mail: mohamedislem.benhadjhassine@etudian-isi-utm.tn
+'''
 def has_odd_product_pair(sequence):
     """
     mathematically we only get an odd number ifwe multiply 2 distinct odd numbers so we will be just searching for odd numbers and if it's more than 2 numbers then we are fine to go

@@ -1,3 +1,7 @@
+'''
+sudent: mohamed islem ben hadj hassine
+mail: mohamedislem.benhadjhassine@etudian-isi-utm.tn
+'''
 def element_product(a,b):
     if len(a) != len(b):
         raise ValueError("arrays must have the same length")
